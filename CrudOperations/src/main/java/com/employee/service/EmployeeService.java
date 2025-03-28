@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.employee.model.Employee;
 import com.employee.repository.EmployeeRepository;
 
-@Service
+@Service 
 public class EmployeeService {
 	@Autowired
 	private EmployeeRepository emp;
